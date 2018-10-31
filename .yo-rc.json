@@ -40,5 +40,11 @@
       "en",
       "fr"
     ]
+  },
+  "generator-jhipster-spring-cloud-stream": {
+    "promptValues": {
+      "messageBrokerType": "RabbitMQ",
+      "rabbitMqNameOfMessage": "message"
+    }
   }
 }
