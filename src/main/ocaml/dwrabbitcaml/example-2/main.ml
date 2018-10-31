@@ -1,5 +1,7 @@
-open Amqp
-open Amqp.Thread
+open Amqp_client_async
+open Thread
+
+(* Stress test message production and reception. *)
 
 let consume channel queue =
   let handler { Message.message = (_content, body); _ } =
