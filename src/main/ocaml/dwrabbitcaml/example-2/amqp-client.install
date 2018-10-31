@@ -1,0 +1,7 @@
+lib: [
+  "_build/install/default/lib/amqp-client/META" {"META"}
+  "_build/install/default/lib/amqp-client/opam" {"opam"}
+]
+doc: [
+  "_build/install/default/doc/amqp-client/README.md"
+]
